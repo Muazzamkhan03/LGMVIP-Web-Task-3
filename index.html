@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/LGMVIP-Web-Task-3/style.css">
+</head>
+<body>
+    <header>
+        Student Enrollment Form
+    </header>
+    <main>
+        <form>
+            
+            <div class="form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="name">Website</label>
+                <input type="text" name="website" id="website">
+
+                <label for="img">Image Link</label>
+                <input type="text" name="img" id="img">
+
+                Gender
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <br><input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                Skills  
+                <div>
+                    <input type="checkbox" name="skills" id="java" value="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="skills" id="html" value="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="skills" id="css" value="css">
+                    <label for="css">CSS</label>
+                </div>      
+                <button type="button" id="enroll">Enroll Student</button>
+                <button id="clear">Clear</button>
+            </div>
+        </form>
+        
+        <div class="enrolled">
+            <h4>Enrolled Students</h4>
+            <table border="2px" style="border-collapse:collapse">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody id="students">
+
+                </tbody>
+            </table>
+        </div>
+    
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="/LGMVIP-Web-Task-3/index.js"></script>
+</body>
+</html>
