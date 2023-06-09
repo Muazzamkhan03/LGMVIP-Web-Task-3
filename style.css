@@ -73,6 +73,7 @@ input[type="email"] {
     justify-content: center;
     flex-direction: column;
     width: 40%;
+    border-left: 2px solid #99D0BE;
 }
 
 .enrolled h4 {
